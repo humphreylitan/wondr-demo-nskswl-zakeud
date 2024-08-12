@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font faces */
+
+@font-face {
+  font-family: 'Circular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../CircularXXWeb-Regular.woff') format('woff'),
+    url('../CircularXXWeb-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Circular';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../CircularXXWeb-Italic.woff') format('woff'),
+    url('../CircularXXWeb-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Circular';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../CircularXXWeb-Medium.woff') format('woff'),
+    url('../CircularXXWeb-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Circular';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../CircularXXWeb-Bold.woff') format('woff'),
+    url('../CircularXXWeb-Bold.woff2') format('woff2');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --media-brand: 245 245 245;
+  --media-focus: 78 156 246;
+}
+
+body {
+  font-family: 'Inter';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Circular';
+  font-weight: 500;
+}
